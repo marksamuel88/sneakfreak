@@ -242,11 +242,8 @@ navbar
   transition: var(--transition);
 }
 
-.links .nav-link:hover {
-  color: var(--clr-white);
-}
 .nav-link:hover {
-  background: var(--clr-primary-1);
+  background: var(--clr-primary-5);
   padding-left: 2.5rem;
 }
 
@@ -271,6 +268,11 @@ navbar
   .nav-link:hover {
     background: transparent;
   }
+
+  .links a {
+    color: var(--clr-white);
+  }
+
   .icons {
     display: flex;
   }
