@@ -233,7 +233,7 @@ navbar
 }
 
 .show-links {
-  height: auto;
+  height: 210px;
 }
 .nav-link {
   text-decoration: capitalize;
@@ -242,6 +242,9 @@ navbar
   transition: var(--transition);
 }
 
+.links .nav-link:hover {
+  color: var(--clr-white);
+}
 .nav-link:hover {
   background: var(--clr-primary-5);
   padding-left: 2.5rem;
@@ -269,7 +272,7 @@ navbar
     background: transparent;
   }
 
-  .links a {
+  .nav-link:hover {
     color: var(--clr-white);
   }
 
